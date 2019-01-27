@@ -13,6 +13,8 @@ server:
 eureka:
   instance:
     hostname: eureka-server
+  server:
+    enable-self-preservation: false
   client:
     registerWithEureka: false
     fetchRegistry: false
